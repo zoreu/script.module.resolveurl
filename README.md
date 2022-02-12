@@ -46,7 +46,7 @@ Include both the scripts in your addon.xml
 
 Call the resolveurl from your addon to resolve the XXX hosts.
 
-```
+```python
 import resolveurl
 import xbmcvfs
 xxx_plugins_path = 'special://home/addons/script.module.resolveurl.xxx/resources/plugins/'
