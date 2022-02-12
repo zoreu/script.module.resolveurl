@@ -24,22 +24,12 @@ import resolveurl as urlresolver
 resolved = urlresolver.resolve(url)
 ```
 
-Include my repo with your repo to always have the ~~latest~~ updates from me
+Include my repo with your repo to always have the **latest** updates
 
 ```xml
 <dir>
-    <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
-</dir>
-```
-
-Include gujal dir with your repo to always have the **latest** updates
-
-```xml
-<dir>
-    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
-    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
-    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+    <info compressed="false">https://raw.githubusercontent.com/zoreu/script.module.resolveurl/repo/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/zoreu/script.module.resolveurl/repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/zoreu/script.module.resolveurl/repo/zips/</datadir>
 </dir>
 ```
